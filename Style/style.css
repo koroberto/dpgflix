@@ -1,0 +1,123 @@
+@font-face{
+    font-family: Bebas;
+    src: url('../Fonts/bebas/Bebas-Regular.ttf');
+}
+@font-face{
+    font-family: ProductSans;
+    src: url('../fonts/ProductSans-Medium.ttf');
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+}
+/* Design Mobile */
+.logo{
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    font-size: xx-large;
+    font-family: Bebas;
+    color: #e50914;
+}
+
+iframe{
+    margin-top: 30%;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+}
+
+body{
+    background-color: #141414;
+    font-family: ProductSans, sans-serif;
+    color: #fff;
+}
+h1{
+    font-size: 150%;
+    margin-top: 10px;
+}
+h2{
+    font-size: 120%;
+}
+.informacoes{
+    margin-top: 3%;
+    align-items: center;
+}
+
+.relevancia{
+    color: #36a251;
+}
+
+.maiores{
+    color: #2e88bd;
+}
+
+.semelhantes{
+    text-decoration: underline red;
+}
+.botao{
+    border: soldi 1px black;
+    background-color: #e50914;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.botao p {
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.imgSug{
+    width: 90%;
+}
+.subSug{
+    font-size: 120%;
+}
+/* Design Desktops */ 
+@media (min-width: 1025px) {
+    .logo{
+        font-size: 300%;
+    }
+
+    iframe{
+        margin-top: 15%;
+        width: 1024px; 
+        height: 576px;
+    }
+    h1{
+        font-size: 60px;
+        margin: 10px 0px 0px 40px;
+    }
+    .informacoes{
+        font-size: 25px;
+    }
+    .descricao{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .semelhantes{
+        margin: 40px;
+        font-size: 30px;
+        text-decoration: underline red;
+    }
+    .botao{
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    .imgSug{
+        width: 90%;
+    }
+    .subSug{
+        font-size: 50px;
+    }
+}
